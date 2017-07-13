@@ -4,12 +4,8 @@ from threading import Thread
 from queue import Queue
 from os import getenv
 
-# https://stackoverflow.com/questions/40992480/getting-a-soundcloud-api-client-id
-CLIENT_ID = getenv("CLIENT_ID", None)
+CLIENT_ID = "2t9loNQH90kzJcsFCODdigxfp325aq4z"
 
-if CLIENT_ID == None:
-	print("Set your CLIENT_ID as env variable.")
-	exit(1)
 
 API_USERS_BASE_URL = "http://api.soundcloud.com/users/"
 CLIENT_ID_PARAMETER = "?client_id=%s" % CLIENT_ID
