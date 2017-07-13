@@ -24,3 +24,8 @@ These should be enough fields to download all songs, most tools only require `pe
 ### Setup
 Environment variables:
 * `CLIENT_ID`: [Stack Overflow](https://stackoverflow.com/questions/40992480/getting-a-soundcloud-api-client-id)
+
+### Disclaimer 
+> You must not use the SoundCloud® API to rip or capture any User Content from any part of the SoundCloud® platform, or use the SoundCloud® API to circumvent any usage restrictions or content protection measures imposed by any Uploader with respect to User Content on the SoundCloud® platform.
+
+This script violates the SoundCloud® API terms of use, make with that what you will.
