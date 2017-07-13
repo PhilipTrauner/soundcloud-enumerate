@@ -9,6 +9,7 @@ CLIENT_ID = getenv("CLIENT_ID", None)
 
 if CLIENT_ID == None:
 	print("Set your CLIENT_ID as env variable.")
+	exit(1)
 
 API_USERS_BASE_URL = "http://api.soundcloud.com/users/"
 CLIENT_ID_PARAMETER = "?client_id=%s" % CLIENT_ID
