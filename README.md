@@ -1,3 +1,5 @@
+**Enumeration 'attacks' can not be carried out anymore. This script is therefor broken.**
+
 # soundcloud-enumerate
 
 <img align="right" src="http://www.iconsdb.com/icons/preview/black/soundcloud-xxl.png"> 
